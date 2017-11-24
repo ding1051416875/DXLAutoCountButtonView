@@ -1,0 +1,84 @@
+//
+//  AutoButton.m
+//  JPet
+//
+//  Created by apple on 2017/5/14.
+//  Copyright © 2017年 DingXiaoLei. All rights reserved.
+//
+
+#import "AutoButton.h"
+
+@implementation AutoButton
+
+//- (instancetype)initWithFrame:(CGRect)frame
+//{
+//    self = [super initWithFrame:frame];
+//    if (self) {
+//        [self setTitle:_title forState:UIControlStateNormal];
+//       
+//        [self setTitleColor:kColor_BlackTitle forState:UIControlStateNormal];
+//        [self setImage:[UIImage imageNamed:_image] forState:UIControlStateNormal];
+//        [self.titleLabel setTextAlignment:NSTextAlignmentCenter];
+//        self.titleLabel.font = kFont_Lable_14;
+//        self.titleLabel.adjustsFontSizeToFitWidth = YES;
+//        self.imageView.contentMode = UIViewContentModeScaleAspectFit;
+//        
+//        self.imageView.sd_layout
+//        .widthRatioToView(self, 0.5)
+//        .centerXEqualToView(self)
+//        .topSpaceToView(self, 10)
+//        .heightRatioToView(self, 0.6);
+//        
+//        self.titleLabel.sd_layout
+//        .topSpaceToView(self.imageView, 10)
+//        .leftEqualToView(self.imageView)
+//        .rightEqualToView(self.imageView)
+//        .bottomSpaceToView(self, 10);
+//        
+//    }
+//    return self;
+//}
+- (void)setImage:(NSString *)image
+{
+    _image = image;
+}
+- (void)setTitle:(NSString *)title
+{
+    _title = title;
+}
+- (void)layoutSubviews
+{
+    [super layoutSubviews];
+    [self setTitle:_title forState:UIControlStateNormal];
+    [self setTitleColor:kColor_BlackTitle forState:UIControlStateNormal];
+    [self setImage:[UIImage imageNamed:_image] forState:UIControlStateNormal];
+    [self.titleLabel setTextAlignment:NSTextAlignmentCenter];
+    self.titleLabel.font = kFont_Lable_14;
+    self.titleLabel.adjustsFontSizeToFitWidth = YES;
+    self.imageView.contentMode = UIViewContentModeScaleAspectFit;
+    
+    
+//    self.imageView.sd_layout
+//    .widthRatioToView(self, 0.8)
+//    .centerXEqualToView(self)
+//    .topSpaceToView(self, 10)
+//    .heightRatioToView(self, 0.6);
+//    
+//    self.titleLabel.sd_layout
+//    .topSpaceToView(self.imageView, 10)
+//    .leftEqualToView(self.imageView)
+//    .rightEqualToView(self.imageView)
+//    .bottomSpaceToView(self, 10);
+    
+
+}
+
+/*
+// Only override drawRect: if you perform custom drawing.
+// An empty implementation adversely affects performance during animation.
+- (void)drawRect:(CGRect)rect {
+    // Drawing code
+}
+*/
+
+@end

@@ -1,0 +1,56 @@
+//
+//  PrefixHeader.pch
+//  DXLAutoCountButtonView
+//
+//  Created by 丁晓雷 on 2017/11/24.
+//  Copyright © 2017年 丁晓雷. All rights reserved.
+//
+
+#ifndef PrefixHeader_pch
+#define PrefixHeader_pch
+// Include any system framework and library headers here that should be included in all compilation units.
+// You will also need to set the Prefix Header build setting of one or more of your targets to reference this file.
+#import "SDAutoLayout.h"
+#import "UIColor+Hex.h"
+/**十六进制色值*/
+#define hexColor(hex) [UIColor colorWithHex:hex]
+#define kColor_Gray   [UIColor grayColor]
+#define kColor_Black  [UIColor blackColor]
+#define kColor_White  [UIColor whiteColor]
+#define kColor_Red    [UIColor redColor]
+#define kColor_Blue   [UIColor blueColor]
+#define kColor_Green  [UIColor greenColor]
+#define MainColor hexColor(0xef5757)
+#define kColor_backgroundView hexColor(0xffffff)
+#define kColor_BlackTitle hexColor(0x333333)
+#define kColor_BlackTitleDetail hexColor(0x666666)
+#define kColor_GrayTitle hexColor(0x999999)
+#define kColor_GrayTitleDetail hexColor(0x808080)
+#define kColor_line hexColor(0xf2f2f2)
+#define kColor_border   hexColor(0xcccccc)
+#define kColor_redTitle hexColor(0xff6666)
+#define kColor_lineGray RGB(242,242,242)
+
+#define kFont_Lable_20 [UIFont systemFontOfSize:20]
+#define kFont_Lable_19 [UIFont systemFontOfSize:19]
+#define kFont_Lable_18 [UIFont systemFontOfSize:18]
+#define kFont_Lable_17 [UIFont systemFontOfSize:17]
+#define kFont_Lable_16 [UIFont systemFontOfSize:16]
+#define kFont_Lable_15 [UIFont systemFontOfSize:15]
+#define kFont_Lable_14 [UIFont systemFontOfSize:14]
+#define kFont_Lable_13 [UIFont systemFontOfSize:13]
+#define kFont_Lable_12 [UIFont systemFontOfSize:12]
+#define kFont_Lable_10 [UIFont systemFontOfSize:10]
+#define kFont_Light_10 [UIFont fontWithName:@"STHeitiSC-Light" size:10.0f]
+#define kFont_Light_12 [UIFont fontWithName:@"STHeitiSC-Light" size:12.0f]
+#define kFont_Light_13 [UIFont fontWithName:@"STHeitiSC-Light" size:13.0f]
+#define kFont_Light_14 [UIFont fontWithName:@"STHeitiSC-Light" size:14.0f]
+#define kFont_Light_15 [UIFont fontWithName:@"STHeitiSC-Light" size:15.0f]
+#define kFont_Light_16 [UIFont fontWithName:@"STHeitiSC-Light" size:16.0f]
+#define kFont_Light_18 [UIFont fontWithName:@"STHeitiSC-Light" size:18.0f]
+#define kFont_Medium_12 [UIFont fontWithName:@"STHeitiSC-Medium" size:12.0f]
+#define kFont_Medium_14 [UIFont fontWithName:@"STHeitiSC-Medium" size:14.0f]
+#define kFont_Medium_16 [UIFont fontWithName:@"STHeitiSC-Medium" size:16.0f]
+#define kFont_Medium_18 [UIFont fontWithName:@"STHeitiSC-Medium" size:18.0f]
+#define kFont_Medium_22 [UIFont fontWithName:@"STHeitiSC-Medium" size:22.0f]
+#endif /* PrefixHeader_pch */

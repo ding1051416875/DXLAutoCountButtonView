@@ -15,6 +15,14 @@
 		8FBC29CC1FC7ACCF006D3E8C /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 8FBC29CB1FC7ACCF006D3E8C /* main.m */; };
 		8FBC29D61FC7ACCF006D3E8C /* DXLAutoCountButtonViewTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 8FBC29D51FC7ACCF006D3E8C /* DXLAutoCountButtonViewTests.m */; };
 		8FBC29E11FC7ACCF006D3E8C /* DXLAutoCountButtonViewUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 8FBC29E01FC7ACCF006D3E8C /* DXLAutoCountButtonViewUITests.m */; };
+		8FBC29F51FC7ACEF006D3E8C /* AutoButton.m in Sources */ = {isa = PBXBuildFile; fileRef = 8FBC29F11FC7ACEF006D3E8C /* AutoButton.m */; };
+		8FBC29F61FC7ACEF006D3E8C /* AutoLableView.m in Sources */ = {isa = PBXBuildFile; fileRef = 8FBC29F21FC7ACEF006D3E8C /* AutoLableView.m */; };
+		8FBC29F71FC7ACEF006D3E8C /* DXLAutoButtonView.m in Sources */ = {isa = PBXBuildFile; fileRef = 8FBC29F31FC7ACEF006D3E8C /* DXLAutoButtonView.m */; };
+		8FBC29FE1FC7AD1C006D3E8C /* UIView+SDAutoLayout.m in Sources */ = {isa = PBXBuildFile; fileRef = 8FBC29F91FC7AD1C006D3E8C /* UIView+SDAutoLayout.m */; };
+		8FBC29FF1FC7AD1C006D3E8C /* UITableView+SDAutoTableViewCellHeight.m in Sources */ = {isa = PBXBuildFile; fileRef = 8FBC29FC1FC7AD1C006D3E8C /* UITableView+SDAutoTableViewCellHeight.m */; };
+		8FBC2A021FC7AE45006D3E8C /* store_type_1@3x.png in Resources */ = {isa = PBXBuildFile; fileRef = 8FBC2A001FC7AE45006D3E8C /* store_type_1@3x.png */; };
+		8FBC2A031FC7AE45006D3E8C /* store_type_1@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 8FBC2A011FC7AE45006D3E8C /* store_type_1@2x.png */; };
+		8FBC2A071FC7B213006D3E8C /* UIColor+Hex.m in Sources */ = {isa = PBXBuildFile; fileRef = 8FBC2A051FC7B213006D3E8C /* UIColor+Hex.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -51,6 +59,22 @@
 		8FBC29DC1FC7ACCF006D3E8C /* DXLAutoCountButtonViewUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = DXLAutoCountButtonViewUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		8FBC29E01FC7ACCF006D3E8C /* DXLAutoCountButtonViewUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = DXLAutoCountButtonViewUITests.m; sourceTree = "<group>"; };
 		8FBC29E21FC7ACCF006D3E8C /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		8FBC29EF1FC7ACEF006D3E8C /* DXLAutoButtonView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DXLAutoButtonView.h; sourceTree = "<group>"; };
+		8FBC29F01FC7ACEF006D3E8C /* AutoLableView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AutoLableView.h; sourceTree = "<group>"; };
+		8FBC29F11FC7ACEF006D3E8C /* AutoButton.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AutoButton.m; sourceTree = "<group>"; };
+		8FBC29F21FC7ACEF006D3E8C /* AutoLableView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AutoLableView.m; sourceTree = "<group>"; };
+		8FBC29F31FC7ACEF006D3E8C /* DXLAutoButtonView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DXLAutoButtonView.m; sourceTree = "<group>"; };
+		8FBC29F41FC7ACEF006D3E8C /* AutoButton.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AutoButton.h; sourceTree = "<group>"; };
+		8FBC29F91FC7AD1C006D3E8C /* UIView+SDAutoLayout.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIView+SDAutoLayout.m"; sourceTree = "<group>"; };
+		8FBC29FA1FC7AD1C006D3E8C /* UITableView+SDAutoTableViewCellHeight.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UITableView+SDAutoTableViewCellHeight.h"; sourceTree = "<group>"; };
+		8FBC29FB1FC7AD1C006D3E8C /* SDAutoLayout.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SDAutoLayout.h; sourceTree = "<group>"; };
+		8FBC29FC1FC7AD1C006D3E8C /* UITableView+SDAutoTableViewCellHeight.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UITableView+SDAutoTableViewCellHeight.m"; sourceTree = "<group>"; };
+		8FBC29FD1FC7AD1C006D3E8C /* UIView+SDAutoLayout.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIView+SDAutoLayout.h"; sourceTree = "<group>"; };
+		8FBC2A001FC7AE45006D3E8C /* store_type_1@3x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "store_type_1@3x.png"; sourceTree = "<group>"; };
+		8FBC2A011FC7AE45006D3E8C /* store_type_1@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "store_type_1@2x.png"; sourceTree = "<group>"; };
+		8FBC2A041FC7B0F4006D3E8C /* PrefixHeader.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = PrefixHeader.pch; sourceTree = "<group>"; };
+		8FBC2A051FC7B213006D3E8C /* UIColor+Hex.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIColor+Hex.m"; sourceTree = "<group>"; };
+		8FBC2A061FC7B213006D3E8C /* UIColor+Hex.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIColor+Hex.h"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -105,10 +129,17 @@
 				8FBC29BD1FC7ACCF006D3E8C /* AppDelegate.m */,
 				8FBC29BF1FC7ACCF006D3E8C /* ViewController.h */,
 				8FBC29C01FC7ACCF006D3E8C /* ViewController.m */,
+				8FBC2A061FC7B213006D3E8C /* UIColor+Hex.h */,
+				8FBC2A051FC7B213006D3E8C /* UIColor+Hex.m */,
+				8FBC2A011FC7AE45006D3E8C /* store_type_1@2x.png */,
+				8FBC2A001FC7AE45006D3E8C /* store_type_1@3x.png */,
+				8FBC29F81FC7AD1C006D3E8C /* SDAutoLayout */,
+				8FBC29EE1FC7ACEF006D3E8C /* DXLAutoCountButtonView */,
 				8FBC29C21FC7ACCF006D3E8C /* Main.storyboard */,
 				8FBC29C51FC7ACCF006D3E8C /* Assets.xcassets */,
 				8FBC29C71FC7ACCF006D3E8C /* LaunchScreen.storyboard */,
 				8FBC29CA1FC7ACCF006D3E8C /* Info.plist */,
+				8FBC2A041FC7B0F4006D3E8C /* PrefixHeader.pch */,
 				8FBC29CB1FC7ACCF006D3E8C /* main.m */,
 			);
 			path = DXLAutoCountButtonView;
@@ -130,6 +161,31 @@
 				8FBC29E21FC7ACCF006D3E8C /* Info.plist */,
 			);
 			path = DXLAutoCountButtonViewUITests;
+			sourceTree = "<group>";
+		};
+		8FBC29EE1FC7ACEF006D3E8C /* DXLAutoCountButtonView */ = {
+			isa = PBXGroup;
+			children = (
+				8FBC29EF1FC7ACEF006D3E8C /* DXLAutoButtonView.h */,
+				8FBC29F31FC7ACEF006D3E8C /* DXLAutoButtonView.m */,
+				8FBC29F01FC7ACEF006D3E8C /* AutoLableView.h */,
+				8FBC29F21FC7ACEF006D3E8C /* AutoLableView.m */,
+				8FBC29F41FC7ACEF006D3E8C /* AutoButton.h */,
+				8FBC29F11FC7ACEF006D3E8C /* AutoButton.m */,
+			);
+			path = DXLAutoCountButtonView;
+			sourceTree = "<group>";
+		};
+		8FBC29F81FC7AD1C006D3E8C /* SDAutoLayout */ = {
+			isa = PBXGroup;
+			children = (
+				8FBC29F91FC7AD1C006D3E8C /* UIView+SDAutoLayout.m */,
+				8FBC29FA1FC7AD1C006D3E8C /* UITableView+SDAutoTableViewCellHeight.h */,
+				8FBC29FB1FC7AD1C006D3E8C /* SDAutoLayout.h */,
+				8FBC29FC1FC7AD1C006D3E8C /* UITableView+SDAutoTableViewCellHeight.m */,
+				8FBC29FD1FC7AD1C006D3E8C /* UIView+SDAutoLayout.h */,
+			);
+			path = SDAutoLayout;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -241,6 +297,8 @@
 				8FBC29C91FC7ACCF006D3E8C /* LaunchScreen.storyboard in Resources */,
 				8FBC29C61FC7ACCF006D3E8C /* Assets.xcassets in Resources */,
 				8FBC29C41FC7ACCF006D3E8C /* Main.storyboard in Resources */,
+				8FBC2A021FC7AE45006D3E8C /* store_type_1@3x.png in Resources */,
+				8FBC2A031FC7AE45006D3E8C /* store_type_1@2x.png in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -265,9 +323,15 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				8FBC29F51FC7ACEF006D3E8C /* AutoButton.m in Sources */,
+				8FBC29FE1FC7AD1C006D3E8C /* UIView+SDAutoLayout.m in Sources */,
+				8FBC29FF1FC7AD1C006D3E8C /* UITableView+SDAutoTableViewCellHeight.m in Sources */,
 				8FBC29C11FC7ACCF006D3E8C /* ViewController.m in Sources */,
+				8FBC2A071FC7B213006D3E8C /* UIColor+Hex.m in Sources */,
 				8FBC29CC1FC7ACCF006D3E8C /* main.m in Sources */,
 				8FBC29BE1FC7ACCF006D3E8C /* AppDelegate.m in Sources */,
+				8FBC29F71FC7ACEF006D3E8C /* DXLAutoButtonView.m in Sources */,
+				8FBC29F61FC7ACEF006D3E8C /* AutoLableView.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -432,6 +496,7 @@
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = 39HL38HU4D;
+				GCC_PREFIX_HEADER = "$(SRCROOT)/DXLAutoCountButtonView/PrefixHeader.pch";
 				INFOPLIST_FILE = DXLAutoCountButtonView/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.fulan.DXLAutoCountButtonView;
@@ -446,6 +511,7 @@
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = 39HL38HU4D;
+				GCC_PREFIX_HEADER = "$(SRCROOT)/DXLAutoCountButtonView/PrefixHeader.pch";
 				INFOPLIST_FILE = DXLAutoCountButtonView/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.fulan.DXLAutoCountButtonView;
