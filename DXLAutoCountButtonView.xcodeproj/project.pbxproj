@@ -1,0 +1,557 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 48;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		8FBC29BE1FC7ACCF006D3E8C /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 8FBC29BD1FC7ACCF006D3E8C /* AppDelegate.m */; };
+		8FBC29C11FC7ACCF006D3E8C /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 8FBC29C01FC7ACCF006D3E8C /* ViewController.m */; };
+		8FBC29C41FC7ACCF006D3E8C /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 8FBC29C21FC7ACCF006D3E8C /* Main.storyboard */; };
+		8FBC29C61FC7ACCF006D3E8C /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 8FBC29C51FC7ACCF006D3E8C /* Assets.xcassets */; };
+		8FBC29C91FC7ACCF006D3E8C /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 8FBC29C71FC7ACCF006D3E8C /* LaunchScreen.storyboard */; };
+		8FBC29CC1FC7ACCF006D3E8C /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 8FBC29CB1FC7ACCF006D3E8C /* main.m */; };
+		8FBC29D61FC7ACCF006D3E8C /* DXLAutoCountButtonViewTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 8FBC29D51FC7ACCF006D3E8C /* DXLAutoCountButtonViewTests.m */; };
+		8FBC29E11FC7ACCF006D3E8C /* DXLAutoCountButtonViewUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 8FBC29E01FC7ACCF006D3E8C /* DXLAutoCountButtonViewUITests.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		8FBC29D21FC7ACCF006D3E8C /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 8FBC29B11FC7ACCF006D3E8C /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 8FBC29B81FC7ACCF006D3E8C;
+			remoteInfo = DXLAutoCountButtonView;
+		};
+		8FBC29DD1FC7ACCF006D3E8C /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 8FBC29B11FC7ACCF006D3E8C /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 8FBC29B81FC7ACCF006D3E8C;
+			remoteInfo = DXLAutoCountButtonView;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		8FBC29B91FC7ACCF006D3E8C /* DXLAutoCountButtonView.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = DXLAutoCountButtonView.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		8FBC29BC1FC7ACCF006D3E8C /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		8FBC29BD1FC7ACCF006D3E8C /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		8FBC29BF1FC7ACCF006D3E8C /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		8FBC29C01FC7ACCF006D3E8C /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		8FBC29C31FC7ACCF006D3E8C /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		8FBC29C51FC7ACCF006D3E8C /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		8FBC29C81FC7ACCF006D3E8C /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		8FBC29CA1FC7ACCF006D3E8C /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		8FBC29CB1FC7ACCF006D3E8C /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		8FBC29D11FC7ACCF006D3E8C /* DXLAutoCountButtonViewTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = DXLAutoCountButtonViewTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		8FBC29D51FC7ACCF006D3E8C /* DXLAutoCountButtonViewTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = DXLAutoCountButtonViewTests.m; sourceTree = "<group>"; };
+		8FBC29D71FC7ACCF006D3E8C /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		8FBC29DC1FC7ACCF006D3E8C /* DXLAutoCountButtonViewUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = DXLAutoCountButtonViewUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		8FBC29E01FC7ACCF006D3E8C /* DXLAutoCountButtonViewUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = DXLAutoCountButtonViewUITests.m; sourceTree = "<group>"; };
+		8FBC29E21FC7ACCF006D3E8C /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		8FBC29B61FC7ACCF006D3E8C /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		8FBC29CE1FC7ACCF006D3E8C /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		8FBC29D91FC7ACCF006D3E8C /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		8FBC29B01FC7ACCF006D3E8C = {
+			isa = PBXGroup;
+			children = (
+				8FBC29BB1FC7ACCF006D3E8C /* DXLAutoCountButtonView */,
+				8FBC29D41FC7ACCF006D3E8C /* DXLAutoCountButtonViewTests */,
+				8FBC29DF1FC7ACCF006D3E8C /* DXLAutoCountButtonViewUITests */,
+				8FBC29BA1FC7ACCF006D3E8C /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		8FBC29BA1FC7ACCF006D3E8C /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				8FBC29B91FC7ACCF006D3E8C /* DXLAutoCountButtonView.app */,
+				8FBC29D11FC7ACCF006D3E8C /* DXLAutoCountButtonViewTests.xctest */,
+				8FBC29DC1FC7ACCF006D3E8C /* DXLAutoCountButtonViewUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		8FBC29BB1FC7ACCF006D3E8C /* DXLAutoCountButtonView */ = {
+			isa = PBXGroup;
+			children = (
+				8FBC29BC1FC7ACCF006D3E8C /* AppDelegate.h */,
+				8FBC29BD1FC7ACCF006D3E8C /* AppDelegate.m */,
+				8FBC29BF1FC7ACCF006D3E8C /* ViewController.h */,
+				8FBC29C01FC7ACCF006D3E8C /* ViewController.m */,
+				8FBC29C21FC7ACCF006D3E8C /* Main.storyboard */,
+				8FBC29C51FC7ACCF006D3E8C /* Assets.xcassets */,
+				8FBC29C71FC7ACCF006D3E8C /* LaunchScreen.storyboard */,
+				8FBC29CA1FC7ACCF006D3E8C /* Info.plist */,
+				8FBC29CB1FC7ACCF006D3E8C /* main.m */,
+			);
+			path = DXLAutoCountButtonView;
+			sourceTree = "<group>";
+		};
+		8FBC29D41FC7ACCF006D3E8C /* DXLAutoCountButtonViewTests */ = {
+			isa = PBXGroup;
+			children = (
+				8FBC29D51FC7ACCF006D3E8C /* DXLAutoCountButtonViewTests.m */,
+				8FBC29D71FC7ACCF006D3E8C /* Info.plist */,
+			);
+			path = DXLAutoCountButtonViewTests;
+			sourceTree = "<group>";
+		};
+		8FBC29DF1FC7ACCF006D3E8C /* DXLAutoCountButtonViewUITests */ = {
+			isa = PBXGroup;
+			children = (
+				8FBC29E01FC7ACCF006D3E8C /* DXLAutoCountButtonViewUITests.m */,
+				8FBC29E21FC7ACCF006D3E8C /* Info.plist */,
+			);
+			path = DXLAutoCountButtonViewUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		8FBC29B81FC7ACCF006D3E8C /* DXLAutoCountButtonView */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 8FBC29E51FC7ACCF006D3E8C /* Build configuration list for PBXNativeTarget "DXLAutoCountButtonView" */;
+			buildPhases = (
+				8FBC29B51FC7ACCF006D3E8C /* Sources */,
+				8FBC29B61FC7ACCF006D3E8C /* Frameworks */,
+				8FBC29B71FC7ACCF006D3E8C /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = DXLAutoCountButtonView;
+			productName = DXLAutoCountButtonView;
+			productReference = 8FBC29B91FC7ACCF006D3E8C /* DXLAutoCountButtonView.app */;
+			productType = "com.apple.product-type.application";
+		};
+		8FBC29D01FC7ACCF006D3E8C /* DXLAutoCountButtonViewTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 8FBC29E81FC7ACCF006D3E8C /* Build configuration list for PBXNativeTarget "DXLAutoCountButtonViewTests" */;
+			buildPhases = (
+				8FBC29CD1FC7ACCF006D3E8C /* Sources */,
+				8FBC29CE1FC7ACCF006D3E8C /* Frameworks */,
+				8FBC29CF1FC7ACCF006D3E8C /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				8FBC29D31FC7ACCF006D3E8C /* PBXTargetDependency */,
+			);
+			name = DXLAutoCountButtonViewTests;
+			productName = DXLAutoCountButtonViewTests;
+			productReference = 8FBC29D11FC7ACCF006D3E8C /* DXLAutoCountButtonViewTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		8FBC29DB1FC7ACCF006D3E8C /* DXLAutoCountButtonViewUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 8FBC29EB1FC7ACCF006D3E8C /* Build configuration list for PBXNativeTarget "DXLAutoCountButtonViewUITests" */;
+			buildPhases = (
+				8FBC29D81FC7ACCF006D3E8C /* Sources */,
+				8FBC29D91FC7ACCF006D3E8C /* Frameworks */,
+				8FBC29DA1FC7ACCF006D3E8C /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				8FBC29DE1FC7ACCF006D3E8C /* PBXTargetDependency */,
+			);
+			name = DXLAutoCountButtonViewUITests;
+			productName = DXLAutoCountButtonViewUITests;
+			productReference = 8FBC29DC1FC7ACCF006D3E8C /* DXLAutoCountButtonViewUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		8FBC29B11FC7ACCF006D3E8C /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0910;
+				ORGANIZATIONNAME = "丁晓雷";
+				TargetAttributes = {
+					8FBC29B81FC7ACCF006D3E8C = {
+						CreatedOnToolsVersion = 9.1;
+						ProvisioningStyle = Automatic;
+					};
+					8FBC29D01FC7ACCF006D3E8C = {
+						CreatedOnToolsVersion = 9.1;
+						ProvisioningStyle = Automatic;
+						TestTargetID = 8FBC29B81FC7ACCF006D3E8C;
+					};
+					8FBC29DB1FC7ACCF006D3E8C = {
+						CreatedOnToolsVersion = 9.1;
+						ProvisioningStyle = Automatic;
+						TestTargetID = 8FBC29B81FC7ACCF006D3E8C;
+					};
+				};
+			};
+			buildConfigurationList = 8FBC29B41FC7ACCF006D3E8C /* Build configuration list for PBXProject "DXLAutoCountButtonView" */;
+			compatibilityVersion = "Xcode 8.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 8FBC29B01FC7ACCF006D3E8C;
+			productRefGroup = 8FBC29BA1FC7ACCF006D3E8C /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				8FBC29B81FC7ACCF006D3E8C /* DXLAutoCountButtonView */,
+				8FBC29D01FC7ACCF006D3E8C /* DXLAutoCountButtonViewTests */,
+				8FBC29DB1FC7ACCF006D3E8C /* DXLAutoCountButtonViewUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		8FBC29B71FC7ACCF006D3E8C /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				8FBC29C91FC7ACCF006D3E8C /* LaunchScreen.storyboard in Resources */,
+				8FBC29C61FC7ACCF006D3E8C /* Assets.xcassets in Resources */,
+				8FBC29C41FC7ACCF006D3E8C /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		8FBC29CF1FC7ACCF006D3E8C /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		8FBC29DA1FC7ACCF006D3E8C /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		8FBC29B51FC7ACCF006D3E8C /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				8FBC29C11FC7ACCF006D3E8C /* ViewController.m in Sources */,
+				8FBC29CC1FC7ACCF006D3E8C /* main.m in Sources */,
+				8FBC29BE1FC7ACCF006D3E8C /* AppDelegate.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		8FBC29CD1FC7ACCF006D3E8C /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				8FBC29D61FC7ACCF006D3E8C /* DXLAutoCountButtonViewTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		8FBC29D81FC7ACCF006D3E8C /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				8FBC29E11FC7ACCF006D3E8C /* DXLAutoCountButtonViewUITests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		8FBC29D31FC7ACCF006D3E8C /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 8FBC29B81FC7ACCF006D3E8C /* DXLAutoCountButtonView */;
+			targetProxy = 8FBC29D21FC7ACCF006D3E8C /* PBXContainerItemProxy */;
+		};
+		8FBC29DE1FC7ACCF006D3E8C /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 8FBC29B81FC7ACCF006D3E8C /* DXLAutoCountButtonView */;
+			targetProxy = 8FBC29DD1FC7ACCF006D3E8C /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		8FBC29C21FC7ACCF006D3E8C /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				8FBC29C31FC7ACCF006D3E8C /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		8FBC29C71FC7ACCF006D3E8C /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				8FBC29C81FC7ACCF006D3E8C /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		8FBC29E31FC7ACCF006D3E8C /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.1;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		8FBC29E41FC7ACCF006D3E8C /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.1;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		8FBC29E61FC7ACCF006D3E8C /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 39HL38HU4D;
+				INFOPLIST_FILE = DXLAutoCountButtonView/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.fulan.DXLAutoCountButtonView;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		8FBC29E71FC7ACCF006D3E8C /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 39HL38HU4D;
+				INFOPLIST_FILE = DXLAutoCountButtonView/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.fulan.DXLAutoCountButtonView;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		8FBC29E91FC7ACCF006D3E8C /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 39HL38HU4D;
+				INFOPLIST_FILE = DXLAutoCountButtonViewTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.fulan.DXLAutoCountButtonViewTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/DXLAutoCountButtonView.app/DXLAutoCountButtonView";
+			};
+			name = Debug;
+		};
+		8FBC29EA1FC7ACCF006D3E8C /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 39HL38HU4D;
+				INFOPLIST_FILE = DXLAutoCountButtonViewTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.fulan.DXLAutoCountButtonViewTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/DXLAutoCountButtonView.app/DXLAutoCountButtonView";
+			};
+			name = Release;
+		};
+		8FBC29EC1FC7ACCF006D3E8C /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 39HL38HU4D;
+				INFOPLIST_FILE = DXLAutoCountButtonViewUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.fulan.DXLAutoCountButtonViewUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = DXLAutoCountButtonView;
+			};
+			name = Debug;
+		};
+		8FBC29ED1FC7ACCF006D3E8C /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 39HL38HU4D;
+				INFOPLIST_FILE = DXLAutoCountButtonViewUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.fulan.DXLAutoCountButtonViewUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = DXLAutoCountButtonView;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		8FBC29B41FC7ACCF006D3E8C /* Build configuration list for PBXProject "DXLAutoCountButtonView" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				8FBC29E31FC7ACCF006D3E8C /* Debug */,
+				8FBC29E41FC7ACCF006D3E8C /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		8FBC29E51FC7ACCF006D3E8C /* Build configuration list for PBXNativeTarget "DXLAutoCountButtonView" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				8FBC29E61FC7ACCF006D3E8C /* Debug */,
+				8FBC29E71FC7ACCF006D3E8C /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		8FBC29E81FC7ACCF006D3E8C /* Build configuration list for PBXNativeTarget "DXLAutoCountButtonViewTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				8FBC29E91FC7ACCF006D3E8C /* Debug */,
+				8FBC29EA1FC7ACCF006D3E8C /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		8FBC29EB1FC7ACCF006D3E8C /* Build configuration list for PBXNativeTarget "DXLAutoCountButtonViewUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				8FBC29EC1FC7ACCF006D3E8C /* Debug */,
+				8FBC29ED1FC7ACCF006D3E8C /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 8FBC29B11FC7ACCF006D3E8C /* Project object */;
+}
